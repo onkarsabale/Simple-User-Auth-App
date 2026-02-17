@@ -72,5 +72,10 @@ Enjoy!
 ### Profile Page
 ![Profile Page](screenshots/profile.png)
 
+---
+
+## 📌 License
+
+Open-source, free to use for learning and demos.
 
 ---
