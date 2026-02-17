@@ -63,13 +63,13 @@ Enjoy!
 
 ## 📸 Project Demo Screenshots
 
-### Admin Dashboard
+### Registration Page
 ![Registration Page](screenshots/reg.png)
 
-### Farmer Management
+### Login Page
 ![Login Page](screenshots/login.png)
 
-### Buyer Management
+### Profile Page
 ![Profile Page](screenshots/profile.png)
 
 
