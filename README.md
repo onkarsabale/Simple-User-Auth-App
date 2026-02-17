@@ -1,59 +1,76 @@
-# AuthApp
+# Angular User Authentication App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.4.
+> A modern, interactive Angular standalone application for user registration, login, and profile view with reactive forms, animations, and UI enhancements.
 
-## Development server
+This project demonstrates frontend-focused user authentication, form validation, and a smooth user experience. It uses Angular’s Reactive Forms, routing, and component-based architecture, without a backend (users are stored in memory for demo purposes).
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
-```
+### App Features
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+✔ Registration Page with validation & input icons
+✔ Login Page with password show/hide toggle
+✔ Profile Page displaying user info
+✔ Success/Error message animations
+✔ Interactive button click animations
+✔ Angular Reactive Forms & routing
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🧩 Technologies Used
 
-```bash
-ng generate component component-name
-```
+### Frontend
+| Technology | Purpose |
+|----------|---------|
+| Angular |	Framework for SPA & component architecture
+| TypeScript |	Strongly typed JS for Angular components
+| HTML | Page structure |
+| CSS | Styling and layout |
+| FontAwesome | Input icons for better UX |
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Backend
+| Technology | Purpose |
+|-----------|--------|
+| Auth Service (in-memory) | Handles user registration and login logic |
 
-```bash
-ng generate --help
-```
+> Note: No persistent backend is used; user data is lost on page reload.
 
-## Building
+---
 
-To build the project run:
+## 🚀 How to Run
 
-```bash
-ng build
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/onkarsabale/Simple-User-Auth-App.git
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+2. Navigate to the project folder:
+   ```bash
+    cd auth-app
+   
+3. Install dependencies:
+   ```bash
+   npm install
+   
+4. Run the Angular app locally:
+   ```bash
+   ng serve
 
-## Running unit tests
+Open your browser at: http://localhost:4200/
+   
+Enjoy!
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+---
 
-```bash
-ng test
-```
+## 📸 Project Demo Screenshots
 
-## Running end-to-end tests
+### Admin Dashboard
+![Registration Page](screenshots/reg.png)
 
-For end-to-end (e2e) testing, run:
+### Farmer Management
+![Login Page](screenshots/login.png)
 
-```bash
-ng e2e
-```
+### Buyer Management
+![Profile Page](screenshots/profile.png)
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
